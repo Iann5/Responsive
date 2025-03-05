@@ -1,0 +1,28 @@
+/* Estilos generales (modo vertical por defecto) */
+body {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.mensaje {
+    background-color: darkgreen;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Estilos para orientación horizontal */
+@media (orientation: landscape) {
+    body {
+        background-color: blue;
+    }
+
+    .mensaje {
+        background-color: darkblue;
+    }
+}
