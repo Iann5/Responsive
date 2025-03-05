@@ -3,6 +3,14 @@
     grid-gap: 20px;
     text-align: center;  /* Centra el texto en cada item */
 }
+.item{
+    background-color: rgb(119, 174, 119);
+    gap: 10px;
+    padding: 10px;
+    display: grid;
+    width: 90%;
+    max-width: 800px;
+}
   
   /* Pantallas grandes */
 @media (min-width: 1024px) {
